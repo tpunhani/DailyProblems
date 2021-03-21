@@ -6,6 +6,6 @@ def reverseList(list, start, end) -> list:
         return list
 
     list[start], list[end] = list[end], list[start]
-    return rev(list, start+1, end-1)
+    return reverseList(list, start+1, end-1)
 
 
