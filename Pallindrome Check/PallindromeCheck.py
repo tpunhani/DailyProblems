@@ -1,6 +1,4 @@
-# To add a new cell, type '# %%'
-# To add a new markdown cell, type '# %% [markdown]'
-# %%
+# returns true or false
 def pallindromeCheck(list)-> bool:
     start = 0
     end = len(list)-1
@@ -10,13 +8,3 @@ def pallindromeCheck(list)-> bool:
         start += 1
         end -= 1
     return True
-
-
-# %%
-pallindromeCheck("ABCBA")
-
-
-# %%
-
-
-
